@@ -3,11 +3,8 @@
 /* 
     Paleta de cores
     
-    Roxo claro: #000000
-    Roxo escuro: #7E0385
-    Azul escuro: #281675
-    Azul medio: #142C8C
-    Azul claro: #FFFFFF
+    Azul escuro: #0b0720
+    Azul claro: #3BF8FA
 */
 
 *{
@@ -40,6 +37,9 @@ main{
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 2px 2px 15px 3px #3BF8FA;
+
+    transition: width .6s, height .6s;
+    transition-timing-function: ease;
 }
 
 #login > #imagem{
