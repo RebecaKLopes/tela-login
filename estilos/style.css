@@ -18,7 +18,7 @@
 }
 
 body, html{
-    background: #130b36;
+    background: #0b0720;
     height: 100vh;
     width: 100vw;
 }
@@ -39,12 +39,12 @@ main{
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 2px 2px 15px 3px #D90BD6;
+    box-shadow: 2px 2px 15px 3px #3BF8FA;
 }
 
 #login > #imagem{
     display: block;
-    background: url(../imagens/pexels-irina-iriser-1086584.jpg) no-repeat;
+    background: url(../imagens/imagem.jpg) no-repeat;
     height: 200px;
     background-size: cover;
     background-position:center;
