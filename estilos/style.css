@@ -54,3 +54,62 @@ main{
     display: block;
     padding: 10px;
 }
+
+#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#formulario > p{
+    font-size: 0,8em;
+}
+
+.campo{
+    background-color: #0b0720;
+    width: 100%;
+    height: 40px;
+    display: block;
+    color: white;
+    border-radius: 5px;
+    margin: 5px 0px;
+    
+}
+
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #281a6e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover{
+    background-color: #110541;
+}
+
+form > a.esqueci{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 7px;
+    background-color: white;
+    color: #110541;
+    text-decoration: none;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1.3px solid #110541;
+}
+
+form > a.esqueci:hover{
+    background-color: #281a6e;
+}
+
+form > a.esqueci > span{
+    font-size: 0.8em;
+}
