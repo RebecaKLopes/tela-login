@@ -5,6 +5,7 @@
     
     Azul escuro: #0b0720
     Azul claro: #3BF8FA
+    roxo: #A640F5
 */
 
 *{
@@ -30,16 +31,17 @@ main{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 515px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 2px 2px 15px 3px #3BF8FA;
 
     transition: width .6s, height .6s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
+
 }
 
 #login > #imagem{
@@ -65,14 +67,35 @@ main{
 }
 
 .campo{
-    background-color: #0b0720;
+    background-color: #A640F5;
     width: 100%;
     height: 40px;
     display: block;
     color: white;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
-    
+    border: 2px solid #A640F5;
+}
+
+div.campo > label > span{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input{
+    background-color: #9afafb;
+    font-size: 1em;
+    height: 100%;
+    width: calc(100% - 45px);
+    border-radius: 8px;
+    border: 0px;
+    transform: translateY(-12px);
+}
+
+div.campo > input:focus-within{
+    background-color: white;
 }
 
 form > input[type=submit]{
@@ -88,7 +111,7 @@ form > input[type=submit]{
 }
 
 form > input[type=submit]:hover{
-    background-color: #110541;
+    background-color: #A640F5;
 }
 
 form > a.esqueci{
@@ -107,7 +130,7 @@ form > a.esqueci{
 }
 
 form > a.esqueci:hover{
-    background-color: #281a6e;
+    background-color: #A640F5;
 }
 
 form > a.esqueci > span{
